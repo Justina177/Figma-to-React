@@ -1,0 +1,29 @@
+.topbar {
+    background-color: #e77722;
+    padding: 10px 0;
+    height: 10px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+
+}
+.two {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* padding: 10px; */
+}
+
+.topbar-icon {
+    color: white;
+}
+
+  

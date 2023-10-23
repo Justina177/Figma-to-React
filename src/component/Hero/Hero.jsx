@@ -1,6 +1,8 @@
 import React from 'react';
 import './Hero.css';
-// import heroImg from ''
+// import heroImg from '../../img/pexels-photo-424184.jpeg';
+import heroImg2 from '../../img/tanker-removebg-preview.png';
+
 
 const Hero = () => {
   return (
@@ -14,13 +16,15 @@ const Hero = () => {
         </ul>
       </nav>
       <div className="hero-content">
-        <div className="hero-image-container">
-          {/* <img src={heroImg} alt="Hero" className="hero-image" /> */}
-        </div>
         <div className="hero-text-container">
-          <h1>Quality fuel at <br/> Your doorstep</h1>
-          <p>FAAD runs a @24/7 fuel supply and procurement <br/> service to over 200 offices, homes, schools and, <br/> events.</p>
-          <button className="heroBtn">PLACE ORDER</button>
+          <div className="hero-text-container">
+            <h1>Quality fuel at <br/> Your doorstep</h1>
+            <p>FAAD runs a @24/7 fuel supply and procurement <br/> service to over 200 offices, homes, schools and, <br/> events.</p>
+            <button className="heroBtn">PLACE ORDER</button>
+          </div>
+        </div>
+        <div className="hero-image-container">
+            <img className="hero-image" src= {heroImg2} alt="img" />
         </div>
       </div>
     </div>

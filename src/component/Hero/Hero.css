@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    background-image: url('../../img/pexels-photo-424184.jpeg');
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, #1A1A1A 70%, #2f2e2e 100%), url('../../img/pexels-photo-424184.jpeg');
     background-size: cover;
     background-position: center;
     height: 400px; 
@@ -8,12 +8,21 @@
   }
   
   .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0); */
     padding: 10px 0;
     text-align: center;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     top: 0;
+  }
+
+  .right-nav{
+    color: white;
+    font-weight: bolder;
+    margin-left: 20px;
   }
   
   .nav-list {
@@ -32,7 +41,7 @@
     color: white;
     font-weight: bold;
   }
-
+  
    .hero-content {
     position: relative;
     width: 100%;
@@ -58,9 +67,29 @@
   }
 
   .heroBtn {
-    background-color: rgb(231, 168, 42);
+    background-color: rgb(231, 168, 42); 
+    height: 40px;
+    max-width: 40%;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
     
+  } 
+
+  .client-logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
   }
+  
+  .client-logo {
+    max-width: 40%;
+    height: auto;
+    max-height: 40px; 
+    margin: 0 10px; 
+  }
+
   .hero-image-container {
     flex: 1; 
     text-align: center;
